@@ -9,8 +9,15 @@ html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial
 	table.cabecalho {
 	   background: url(org/sematron/3pane/header.png) 0px -30px no-repeat;	
 	   width:100%; 
+	   padding:0; 
+	   margin:0;
 	}
+        
 
+        table.cabecalho td { 
+		padding:0;
+		margin:0;
+        } 
         table.main {
 		width:1920px;
 		height:1080px;
