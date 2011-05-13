@@ -22,9 +22,9 @@ html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial
 		height:1080px;
 	}
 	
-	table.main td {
+	/*table.main td {
 		border:10px solid rgba(0,0,0,.7);
-	}
+	}*/
 
 
 	.tab {
@@ -41,9 +41,9 @@ html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial
 		background-color:rgb(70,70,70);	
 	} 
 
-        .cor_tab1 { background-color:gray; }
-        .cor_tab2 { background-color:rgb(100,197,210); }
-        .cor_tab3 { background-color:rgb(14,148,171);	}
+        .cor_tab1 { background-color:rgb(255,69,0); }
+        .cor_tab2 { background-color:rgb(255,140,0); }
+        .cor_tab3 { background-color:rgb(255,165,0);	}
 
         .transp { background-color:transparent; }
 
