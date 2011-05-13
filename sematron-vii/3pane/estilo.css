@@ -29,10 +29,13 @@ html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial
 		z-index:1000;
 	}
 
-	#area_bottomright { 
+	#area_cima_direita { 
 		text-align:center;
-		background-color:rgb(70,70,70);	
 	} 
+	#area_cima_centro {
+                height:230px;
+		color:white;
+        }
 
         .cor_tab1 { background-color:rgb(255,69,0); }
         .cor_tab2 { background-color:rgb(255,140,0); }
@@ -68,11 +71,6 @@ html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial
 		overflow:hidden;
 	} 
 
-	#area_bottom {
-                height:230px;
-                background-color:rgba(0,0,0,.7);
-		color:white;
-        }
 
 @font-face {
     font-family: GraublauWeb;
