@@ -1,5 +1,11 @@
 html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial, sans-serif } 
 
+
+.cabecalho {
+   background: url(org/sematron/3pane/header.png) 0px -30px no-repeat;	
+}
+
+
 	body {
 		background-color:rgb(253,181,37); margin:0; padding:0;
 	}
@@ -11,6 +17,11 @@ html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial
 		position:absolute;
 	}
 
+    table.main {
+		width:1920px;
+		height:1080px;
+	}
+	
 	table.main td {
 		border:10px solid rgba(0,0,0,.7);
 	}
@@ -30,7 +41,7 @@ html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial
 		background-color:rgb(70,70,70);	
 	} 
 
-        .cor_tab1 { background-color:rgb(253,181,37); }
+        .cor_tab1 { background-color:gray; }
         .cor_tab2 { background-color:rgb(100,197,210); }
         .cor_tab3 { background-color:rgb(14,148,171);	}
 
@@ -43,7 +54,7 @@ html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial
                 background-color:black;
                 z-index:10000;
                 position:absolute;
-                top:44px;
+                top:170px;
                 left:0px;
         }
 

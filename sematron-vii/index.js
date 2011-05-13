@@ -3,8 +3,9 @@ com.taboca.upvisor.registerWidget( null , "org/sematron/calendar/calendar.js","c
 com.taboca.upvisor.registerWidget( ".container" , "org/sematron/clock/clock.js","clock", "area_bottomright");
 com.taboca.upvisor.registerWidget( ".container" , "org/sematron/fotogrid/fotogrid.js","imageshow", "area_panel1");
 com.taboca.upvisor.registerWidget( ".container" , "org/sematron/rss-palestras/rss.js","palestras", "area_panel2");
-com.taboca.upvisor.registerWidget( ".container" , "org/sematron/rede-social/redesocial.js","redesocial", "area_panel3");
-com.taboca.upvisor.registerWidget( ".container" , "org/sematron/typing/typing.js","uspmain", "area_bottom");
+com.taboca.upvisor.registerWidget( ".container" , "org/sematron/grade/grade.js","grade", "area_panel3");
+//com.taboca.upvisor.registerWidget( ".container" , "org/sematron/rede-social/redesocial.js","redesocial", "area_panel3");
+//com.taboca.upvisor.registerWidget( ".container" , "org/sematron/typing/typing.js","uspmain", "area_bottom");
 
 com.taboca.upvisor.startEngine( function () { com.taboca.upvisor.raiseEvent(".calendar", "start"); } ); 
 

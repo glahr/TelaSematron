@@ -10,10 +10,10 @@ var calendar_Widget =  {
 	start : function () { 
 
 	        this._raiseEvent(".container", "start");
-                this._raiseEvent(".container.clock", "start");
+              //  this._raiseEvent(".container.clock", "start");
                 this._raiseEvent(".container.palestras", "start");
-                this._raiseEvent(".container.uspmain", "start");
-                this._raiseEvent(".container.redesocial", "start");
+              //  this._raiseEvent(".container.uspmain", "start");
+                this._raiseEvent(".container.grade", "start");
                 this._raiseEvent(".container.imageshow", "start");
 
 
