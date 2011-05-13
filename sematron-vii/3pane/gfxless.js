@@ -46,108 +46,6 @@ var gfx =  {
 		destaque: "Pesquisa no ICMC",
         _coreDoc: null,
 
-	style : <><![CDATA[
-
-	html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial, sans-serif } 
-
-	body {
-		background-color:rgb(253,181,37); margin:0; padding:0;
-	}
-
-	table {
-		width:100%;
-		margin:0;
-		z-index:1000;
-		position:absolute;
-	}
-
-	table.main td {
-		border:10px solid rgba(0,0,0,.7);
-	}
-
-
-	.tab {
-                font-size:20px;
-                font-weight:bold;
-        }
-
-	#tab1, #tab2, #tab3 { 
-		z-index:1000;
-	}
-
-	#area_bottomright { 
-		text-align:center;
-		background-color:rgb(70,70,70);	
-	} 
-
-        .cor_tab1 { background-color:rgb(253,181,37); }
-        .cor_tab2 { background-color:rgb(100,197,210); }
-        .cor_tab3 { background-color:rgb(14,148,171);	}
-
-        .transp { background-color:transparent; }
-
-        #pointer {
-                width:45px;
-                -moz-border-radius:25px;
-                height:45px;
-                background-color:black;
-                z-index:10000;
-                position:absolute;
-                top:44px;
-                left:0px;
-        }
-
-	#frame { 
-	 	margin:0;
-		padding:0;
-	}
-
-	#td_panel { 
-		padding:0;
-	} 
-
-	.panel { 
-		display:none;
-		margin:0;
-		width:100%;
-		height:806px;
-		overflow:hidden;
-	} 
-
-	#area_bottom {
-                height:230px;
-                background-color:rgba(0,0,0,.7);
-		color:white;
-        }
-
-@font-face {
-    font-family: GraublauWeb;
-    src: url(org/icmc/3pane/GraublauWeb.otf) format("opentype");
-}
-
-@font-face {
-    font-family: GraublauWeb;
-    font-weight:900;
-    src: url(org/icmc/3pane/GraublauWebBold.otf) format("opentype");
-}
-
-@font-face {
-    font-family: Vollkorn;
-	src: url(org/icmc/3pane/vollkorn.otf) format("opentype");
-
-}
-
-@font-face {
-    font-family: Fontin;
-	src: url(org/icmc/3pane/Fontin-Regular.otf) format("opentype");
-	
-}
-
-
-
-]]></>,
-
-
         movepos : 0,
         moveleft: true,
  
@@ -203,71 +101,35 @@ var gfx =  {
 
 	start : function () { 
 
-		var importedElement = this._coreDoc.createElement("div");
-
-		importedElement.innerHTML =  <>
-
-<div id="frame">
-<div id='pointer'>
-</div>
-<table class='main' cellpadding="10" cellspacing="0" height="100%">
-<tr style="height:50px">
-<td class='cor_tab1' id='tab1' width="620"> 
-<div id='destaque' class='tab'>
-</div>
-</td>
-<td class='cor_tab2' id='tab2' width="620">
-<div class='tab'>
-Palestras ICMC
-</div>
-</td>
-<td class='cor_tab3' id='tab3' width="620">
-<div class='tab'>
-Rede Social ICMC
-</div>
-</td>
-</tr>
-<tr>
-<td colspan="3" id='td_panel' valign='top'>
-<div class="panel" id='area_panel1'>
-</div>
-<div class="panel" id='area_panel2'>
-</div>
-<div class="panel" id='area_panel3'>
-</div>
-</td>
-</tr>
-<tr>
-<td colspan='2' id='area_bottom' valign='top' style=''>
-</td>
-<td id='area_bottomright' align="center" valign="middle">
-</td>
-
-</tr>
-</table>
-
-</div>
-
-</>;
-
-		this._coreDoc.getElementById(this._getId()).appendChild(importedElement);
-		this._coreDoc.getElementById("destaque").innerHTML = "Destaque: " + this.destaque;
-
 	} ,
+	
+    asyncStart: function (data) { 
+		var importedElement = this._coreDoc.createElement("div");
+		importedElement.innerHTML =  data;
+		this._coreDoc.getElementById(this._getId()).appendChild(importedElement);
+    }, 
+  	asyncStyle: function (data) { 
+	 	var style = this._coreDoc.createElementNS("http://www.w3.org/1999/xhtml", "style");
+		this._coreDoc.getElementById("headtarget").appendChild(style);
+		style.innerHTML=data; 
+	},
+
 
 	init : function () {
 	try { 
-	 	var style = this._coreDoc.createElementNS("http://www.w3.org/1999/xhtml", "style");
-	 	//var styleBackground = this._coreDoc.createElementNS("http://www.w3.org/1999/xhtml", "style");
-		this._coreDoc.getElementById("headtarget").appendChild(style);
-		//this._coreDoc.getElementById("headtarget").appendChild(styleBackground);
-		style.innerHTML=this.style; 
 
+	    var self = this;
+		c.load("./org/sematron/3pane/layout.html", function s(d) {
+			self.asyncStart(d);
+		} , function e(i) { console.log(i) } ); 
+		c.load("./org/sematron/3pane/estilo.css", function s(d) {
+			self.asyncStyle(d);
+		} , function e(i) { console.log(i) } ); 
+		
 		// we need to make this more flexible and events based more fluid 
 		//var bgValue   = this._service_jquery(".3pane .background").text();
 		//styleBackground.innerHTML="body { background-image: url('"+bgValue+"') }";
  
-
 		console.log(this._coreDoc);
 	
 	} catch(i) { console.log(i) } 
