@@ -7,7 +7,7 @@ var fade_Widget =  {
         target      : __targetName,
         targetId    : __targetId,
         feed        : null,
-        feedURL     : "http://api.flickr.com/services/feeds/photoset.gne?set=72157626488905998&nsid=56306050@N03&lang=pt-br&format=",
+        feedURL     : "http://farm3.static.flickr.com/2713/buddyicons/62735326@N03.jpg?1305198892#62735326@N03",
 	refElement   : null, 
 	imageNumber  : 0,
 	element      : null,

@@ -83,11 +83,10 @@ var gfx =  {
 		if(this.movepos > 0  && this.movepos < 630) { 
 			if(!this.done[0]) { 
 			this.done[0]=true;
-                        this._coreDoc.getElementById("tab1").className="transp";
+                        this._coreDoc.getElementById("tab1").className="cor_tab1";
                         this._coreDoc.getElementById("tab2").className="cor_tab2";
                         this._coreDoc.getElementById("tab3").className="cor_tab3";
 			this._coreDoc.getElementById("td_panel").style.backgroundColor="rgb(255,69,0)";
-			this._coreDoc.getElementById("td_panel").style.backgroundColor="transparent";
                         this._coreDoc.getElementById("area_panel1").style.display="block";
                         this._coreDoc.getElementById("area_panel2").style.display="none";
                         this._coreDoc.getElementById("area_panel3").style.display="none";
