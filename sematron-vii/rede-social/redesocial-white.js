@@ -16,7 +16,7 @@ var twitter =  {
 	
 	approved: [],
 	
-	style : " .twitterPanel { margin-left:25px; margin-top:20px; } .tweetauthor { color:gray; font-size:16px; } .postitbase { transform: rotate(1.1deg); -webkit-transform: rotate(1.1deg); -moz-transform: rotate(1.1deg); color:black;                        display:inline-block; font-size:18px; overflow:hidden; font-weight:bold;                        margin:15px; padding:18px; width:300px; height:170px; background-color: #cff;       -moz-box-shadow: black 10px 10px 10px; } .sematron, .taboca { background: yellow url(org/sematron/vendor/sematron.png) no-repeat ! important; color:black; } " , 
+	style : " .twitterPanel { margin-left:25px; margin-top:20px; } .tweetauthor { color:gray; font-size:16px; } .postitbase { background:#ffb, transform: rotate(1.1deg); -webkit-transform: rotate(1.1deg); -moz-transform: rotate(1.1deg); color:black;                        display:inline-block; font-size:18px; overflow:hidden; font-weight:bold;                        margin:15px; padding:18px; width:300px; height:170px; background-color: #cff;       -moz-box-shadow: black 10px 10px 10px; } .sematron { background: yellow url(org/sematron/vendor/sematron.png) no-repeat ! important; color:black; } " , 
 	start : function() {
 
 		this.element = this._coreDoc.createElement('div');
@@ -94,7 +94,7 @@ var twitter =  {
 		if(this.count >= 3)
 			this.count = 0;
 
-		k.style.backgroundColor = this.colors[this.count];
+		//k.style.backgroundColor = this.colors[this.count];
 
 		this.count++;
 		
