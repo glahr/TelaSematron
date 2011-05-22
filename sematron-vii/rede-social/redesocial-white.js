@@ -7,7 +7,7 @@ var twitter =  {
         targetId : __targetId,
 
 	//feedURL : "http://twitter.com/statuses/user_timeline/129014758.rss",
-	feedURL : "http://search.twitter.com/search.rss?q=sematron",
+	feedURL : "http://search.twitter.com/search.rss?q=%23sematron",
 	feedURLdois : "org/sematron/rede-social/whitelist.xml",
 	feed    : null,
 	feeddois    : null,

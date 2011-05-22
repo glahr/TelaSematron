@@ -84,6 +84,10 @@ var grade =  {
 		this._coreDoc.getElementById("headtarget").appendChild(style);
 		style.innerHTML=this.style; 
 
+
+this.descricao["22"] = "VII Sematron";
+this.local["22"] = "Segunda-feira, 23 de Maio, 2011 @ USP";
+
 this.descricao["23"] = "VII Sematron";
 this.local["23"] = "Segunda-feira, 23 de Maio, 2011 @ USP";
 
@@ -103,6 +107,8 @@ this.local["27"] = "Sexta-feira, 27 de Maio, 2011 @ USP";
 
 evento : { 
                                              
+"22": [ { inicio: "08:00", fim: "09:00", descricao: '"Credenciamento"', sigla: "- ",local: "Anfiteatro Jorge Caron",apresentador: ""},{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:""},{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:""},{ inicio: "14:00 ",fim: "16:00",descricao: '"Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Alexander Busch"},{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Dr. Jô Furlan"},{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Bernardo Veloso e José Luiz Martins"}], 
+
 "23": [ { inicio: "08:00", fim: "09:00", descricao: '"Credenciamento"', sigla: "- ",local: "Anfiteatro Jorge Caron",apresentador: ""},{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:""},{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:""},{ inicio: "14:00 ",fim: "16:00",descricao: '"Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Alexander Busch"},{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Dr. Jô Furlan"},{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Bernardo Veloso e José Luiz Martins"}], 
 
 "24": [ { inicio: "08:00", fim: "10:00", descricao: '"Carreira Profissional e Família - O Céu é o Limite"', sigla: "- ",local: "Anfiteatro Jorge Caron",apresentador: "Eng. Ghassan Maalouf"},{ inicio: "10:00 ",fim: "12:00",descricao: '"Networking e Relacionamento Negocial"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Aldo Novak"},{ inicio: "14:00 ",fim: "16:00",descricao: '"Desenvolvimento de Produtos de Forma Ambientalmente Sustentável"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Dr. Paulo T. M. Lourenção - Embraer"},{ inicio: "16:00 ",fim: "18:00",descricao: '"Jardim de Plantas Robóticas"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Alexandre Simões, Ph.D. e Prof. Dr. Marcelo Franchin - UNESP"},{ inicio: "19:00 ",fim: "20:00",descricao: '"Bio-inspired Swarms of Flying Robots"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Sabine Hauert, Ph.D. - EPFL (Suíça)"}], 
