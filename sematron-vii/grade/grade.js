@@ -76,33 +76,7 @@ var grade =  {
 	},
 
 
-  	style: <><![CDATA[
-
-  		.gradeTable { 
-			width:100%;
-			color:black;
-		} 
-		.gradeTable td { 
-			border:0px;
-			border-bottom:1px solid yellow; 
-		} 
-
-		.gradeContainer { 
-			color:black;font-size:20px;font-weight:bold;text-shadow: #555 2px 2px 5px;
-	 	} 
-
-		.gradeContainer h3 { 
-			font-size:20px;
-			text-shadow:none;
-		} 
-
-		.gradeLocal, .gradeApresentador { 
-			text-shadow: none;
-			font-size:80%;
-		} 
-
- 	]]></>, 
-
+  	style: " .gradeTable { width:100%; color:black; } .gradeTable td { border:0px; border-bottom:1px solid yellow; } .gradeContainer { color:black;font-size:20px;font-weight:bold;text-shadow: #555 2px 2px 5px; } .gradeContainer h3 { font-size:20px; text-shadow:none; } .gradeLocal, .gradeApresentador { text-shadow: none; font-size:80%; } ", 
 
 	init : function () { 
 
