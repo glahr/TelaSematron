@@ -1,6 +1,4 @@
-html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial, sans-serif } 
-
-
+        html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial, sans-serif } 
 
 	body {
 		background-color:rgb(253,181,37); margin:0; padding:0;
@@ -45,16 +43,16 @@ html { padding:0; margin:0; overflow:hidden; font-family: Fontin, verdana, arial
 		color:white;
         }
 
-        .cor_tab1 { background-color:rgb(255,69,0); }
-        .cor_tab2 { background-color:rgb(255,140,0); }
-        .cor_tab3 { background-color:rgb(255,165,0);	}
+        .cor_tab1 { background-color:rgb(255,69,0);}
+        .cor_tab2 { background-color:rgb(255,140,0);}
+        .cor_tab3 { background-color:rgb(255,165,0);}
 
         .transp { background-color:transparent; }
 
         #pointer {
                 width:42px;
                 height:42px;
-				background-image:url(org/sematron/3pane/logo.png);
+		background-image:url(org/sematron/3pane/logo.png);
                 z-index:10000;
                 position:absolute;
                 top:270px;
