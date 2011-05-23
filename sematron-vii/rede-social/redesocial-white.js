@@ -44,6 +44,14 @@ var twitter =  {
 			background-color: #cff;       
 			-moz-box-shadow: black 10px 10px 10px;
 		}
+	 		
+		.sematron, .taboca { 
+
+			background: black url(http://www.sematron.eesc.usp.br/img/favicon.png) no-repeat ! important; 
+			border:4px solid black;
+			color:white;
+	
+		} 
 
 	]]></>, 
 
@@ -116,7 +124,7 @@ var twitter =  {
 		}
 		this.tweetRepeated[t] = true;
 		var k = this._coreDoc.createElement('span');
-		k.className = 'postitbase';
+		k.setAttribute("class", obj.class);
 		var author = t.split(':')[0]
 		var range = Math.random()*2; 
 		range-=.7;
@@ -129,7 +137,6 @@ var twitter =  {
 
 		this.count++;
 		
-		//k.innerHTML = "<span class = 'tweetauthor'> by @" + author + "</span><br>" + t.split(author+':')[1];
 		k.innerHTML = t;		
 		this.element.insertBefore(k, this.element.firstChild);
 		return true;
@@ -154,14 +161,21 @@ var twitter =  {
 			var user = author.split("@")[0];
 			
 			var i;
+			var foundUser = false;
 			for(i=0; i < self.approved.length; i++) {
 
 				if(user == self.approved[i])
 				{
-
-					self.tweetQueue.push( { content: '<img align="left" src=" '+ img +' " /><span class="tweetauthor">@' + user + '</span><br /> ' + title } );
+					foundUser = true; 
+				
+					self.tweetQueue.push( { class: "postitbase " + user,  content: '<img align="left" src=" '+ img +' " /><span class=".tweetauthor">@' + user + '</span><br /> ' + title } );
 				}			
+				
 			}
+ 			if(!foundUser) { 
+
+				self.tweetQueue.push( { class: "postitbase", content: '<img align="left" src=" '+ img +' " /><span class=".tweetauthor">@' + user + '</span><br /> ' + title } );
+			} 
 
 			self.popTweet();
 		});
