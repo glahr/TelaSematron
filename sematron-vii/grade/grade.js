@@ -78,19 +78,20 @@ var grade =  {
 
   	style: <><![CDATA[
 
-
+  		.gradeTable { 
+			width:100%;
+			color:black;
+		} 
 		.gradeTable td { 
 			border:0px;
-			border-bottom:1px solid #ddd; 
+			border-bottom:1px solid yellow; 
 		} 
 
 		.gradeContainer { 
-
 			color:black;font-size:20px;font-weight:bold;text-shadow: #555 2px 2px 5px;
 	 	} 
 
 		.gradeContainer h3 { 
-			color:#777; 
 			font-size:20px;
 			text-shadow:none;
 		} 
@@ -98,7 +99,6 @@ var grade =  {
 		.gradeLocal { 
 			text-shadow: none;
 			font-size:80%;
-			color:gray;
 		} 
 
  	]]></>, 
@@ -110,26 +110,26 @@ var grade =  {
 		this._coreDoc.getElementById("headtarget").appendChild(style);
 		style.innerHTML=this.style; 
 
-this.descricao["12"] = "11th International Workshop on Real and Complex Singularities";
-this.local["12"] = "Wednesday 28th @ ICMC USP";
+this.descricao["23"] = "VII Sematron";
+this.local["23"] = "Segunda-feira, 23 de Maio, 2011 @ USP";
 
-this.descricao["29"] = "11th International Workshop on Real and Complex Singularities";
-this.local["29"] = "Thursday 29th @ ICMC USP";
+this.descricao["24"] = "VII Sematron";
+this.local["24"] = "Terça-feira, 24 de Maio, 2011 @ USP";
 
 	} ,
 
 evento : { 
 
-"12": [ 
+"23": [ 
 
-{ inicio: "22:15 ", fim: "22:17 ", descricao: "The topology of Matrix Singularities and Determinantal Arrangements - James Damon ", sigla: "- ",local: "Auditorium ",apresentador: ""},
-{ inicio: "23:00 ", fim: "23:20 ", descricao: "Coffee break - enjoy ", sigla: "- ",local: "Open patio at Library's",apresentador: ""},
-{ inicio: "23:20 ", fim: "23:50 ", descricao: "Weakly Whitney complex stratifications are Whitney - David J. A. Trotman [room 4-001]; On the Hessian Geometry of a Real Polynomial Hyperbolic near Inﬁnity - Federico Sanchez Bringas [room 4-003]; Splice diagrams and universal abelian covers of isolated surface singularities - Helge Moller Pedersen [Room 4-005] ", sigla: "- ",local: "[4-001,4-003,4-005]",apresentador: ""},
-{ inicio: "12:00 ",fim: "13:00",descricao: 'Singularities in the diﬀerential equations for the motion underfocal attraction and radial drift in rotating medium - Jorge Sotomayor',sigla: "  ",local: "Room [4-001]  ",apresentador:""},
-{ inicio: "13:00 ",fim: "- ",descricao: 'Enjoy the BBQ Party ',sigla: "  ",local: "",apresentador:""}
-
+{ inicio: "08:00", fim: "09:00", descricao: "Credenciamento e crachás", sigla: "- ",local: "",apresentador: ""},
+{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "",apresentador:""},
+{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "",apresentador:""},
+{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "",apresentador:"Alexander Busch"},
+{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
+{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
 ], 
-"29": [ 
+"24": [ 
 
 { inicio: "8:10 ", fim: "9:00 ", descricao: "Mini-course J. Nuno", sigla: "- ",local: "Auditorium ",apresentador: ""},
 { inicio: "9:00 ", fim: "10:00 ", descricao: "Koszul free divisors and relatives - Luis Narváez Macarro", sigla: "- ",local: "Auditorium",apresentador: ""},
@@ -146,9 +146,7 @@ evento : {
 { inicio: "17:00", fim: "18:00 ", descricao: "David's Mathematics - Victor V Goryunov ", sigla: "- ",local: "Auditorium",apresentador: ""},
 { inicio: "18:00", fim: "19:30 ", descricao: " ", sigla: "- ",local: "",apresentador: ""},
 { inicio: "19:30 ",fim: "- ",descricao: 'Dinner event party',sigla: "  ",local: "",apresentador:""}
-
 ] 
-
 
 }
 
