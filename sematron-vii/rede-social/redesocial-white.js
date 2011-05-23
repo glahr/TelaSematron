@@ -16,7 +16,7 @@ var twitter =  {
 	
 	approved: [],
 	
-	style : " .twitterPanel { margin-left:25px; margin-top:20px; } .tweetauthor { color:gray; font-size:16px; } .postitbase { transform: rotate(1.1deg); -webkit-transform: rotate(1.1deg); -moz-transform: rotate(1.1deg); color:black;                        display:inline-block; font-size:18px; overflow:hidden; font-weight:bold;                        margin:15px; padding:18px; width:300px; height:170px; background-color: #cff;       -moz-box-shadow: black 10px 10px 10px; } .sematron, .taboca { background: black url(http://www.sematron.eesc.usp.br/img/favicon.png) no-repeat ! important; border:4px solid black; color:white; } " , 
+	style : " .twitterPanel { margin-left:25px; margin-top:20px; } .tweetauthor { color:gray; font-size:16px; } .postitbase { transform: rotate(1.1deg); -webkit-transform: rotate(1.1deg); -moz-transform: rotate(1.1deg); color:black;                        display:inline-block; font-size:18px; overflow:hidden; font-weight:bold;                        margin:15px; padding:18px; width:300px; height:170px; background-color: #cff;       -moz-box-shadow: black 10px 10px 10px; } .sematron, .taboca { background: darkblue url(http://www.sematron.eesc.usp.br/img/favicon.png) no-repeat ! important; border:4px solid black; color:white; } " , 
 	start : function() {
 
 		this.element = this._coreDoc.createElement('div');
@@ -34,8 +34,8 @@ var twitter =  {
 
 		this._coreDoc.getElementById(this._getId()).appendChild(this.element);
 
-		this.colors[0] = "#fcf";
-		this.colors[1] = "#cff";
+		this.colors[0] = "#ffc";
+		this.colors[1] = "#ffc";
 		this.colors[2] = "#ffc";
 
 		var self = this;
