@@ -116,6 +116,15 @@ this.local["23"] = "Segunda-feira, 23 de Maio, 2011 @ USP";
 this.descricao["24"] = "VII Sematron";
 this.local["24"] = "Terça-feira, 24 de Maio, 2011 @ USP";
 
+this.descricao["25"] = "VII Sematron";
+this.local["25"] = "Quarta-feira, 25 de Maio, 2011 @ USP";
+
+this.descricao["26"] = "VII Sematron";
+this.local["26"] = "Quinta-feira, 26 de Maio, 2011 @ USP";
+
+this.descricao["27"] = "VII Sematron";
+this.local["27"] = "Sexta-feira, 27 de Maio, 2011 @ USP";
+
 	} ,
 
 evento : { 
@@ -129,23 +138,43 @@ evento : {
 { inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
 { inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
 ], 
+
 "24": [ 
 
-{ inicio: "8:10 ", fim: "9:00 ", descricao: "Mini-course J. Nuno", sigla: "- ",local: "Auditorium ",apresentador: ""},
-{ inicio: "9:00 ", fim: "10:00 ", descricao: "Koszul free divisors and relatives - Luis Narváez Macarro", sigla: "- ",local: "Auditorium",apresentador: ""},
-{ inicio: "10:00", fim: "11:00 ", descricao: "Noncommutative Desingularization - A Survey - Ragnar-Olaf Buchweitz", sigla: "- ",local: "Auditorium",apresentador: ""},
-{ inicio: "11:00 ",fim: "11:20",descricao: 'Delightful coffee break',sigla: "  ",local: "Open Library's Patio",apresentador:""},
-{ inicio: "11:20 ",fim: "12:00",descricao: 'Suﬃciency of jets from the plane to the plane - Hans Brodersen [4-001]; Families of curve congruences on Lorentzian surfaces and pencils of quadratic forms - Ana Claudia Nabarro [4-003]; The Lo jasiewicz exponent of a set of ideals and applications - Carles Bivia [4-005]',sigla: "  ",local: "[4-001], [4-003], [4-005]",apresentador:""},
-{ inicio: "12:00 ",fim: "12:20",descricao: 'A Short Exact Sequence for Multiple Point Spaces - Ayse Altintas [4-001]; New Open-Book Decompositions in Singularity Theory - Haydée Aguilar-Cabrera [4-003] ',sigla: "  ",local: "[4-001], [4-003]",apresentador:""},
-{ inicio: "12:20 ",fim: "14:00",descricao: 'Lunch',sigla: "  ",local: "",apresentador:""},
-{ inicio: "14:00 ",fim: "14:40",descricao: 'On metric embedding of complex algebraic sets - Alexandre Fernandes [4-001]; Bitengencies on Higher Dimensional Immersed Manifolds - Daniel Dreibelbis [4-003]; Vector fields liftable over finitely determined multigerms of corank at most one - Takashi Nishimura [4-005]  ',sigla: "  ",local: "[4-001], [4-003], [4-005]",apresentador:""},
-{ inicio: "14:40 ",fim: "15:20",descricao: 'Properties of free divisors of linear type using theory of D-modules - Francisco Calderón [4-001]; Extensions, generalizations and results related to the Four Vertex Theorem - Sueli I R Costa [4-003]; Geometry of the space of treelike shapes - Aasa Feragen [4-005]',sigla: "  ",local: "[4-001], [4-003], [4-005]",apresentador:""},
-{ inicio: "15:20 ",fim: "15:40",descricao: 'Poster Session',sigla: "  ",local: "Library's open patio",apresentador:""},
-{ inicio: "15:40 ",fim: "16:00",descricao: 'Coffee Break',sigla: "  ",local: "Library's open patio",apresentador:""},
-{ inicio: "16:00", fim: "17:00 ", descricao: "Symplectic Singularities - Duco van Straten", sigla: "- ",local: "Auditorium",apresentador: ""},
-{ inicio: "17:00", fim: "18:00 ", descricao: "David's Mathematics - Victor V Goryunov ", sigla: "- ",local: "Auditorium",apresentador: ""},
-{ inicio: "18:00", fim: "19:30 ", descricao: " ", sigla: "- ",local: "",apresentador: ""},
-{ inicio: "19:30 ",fim: "- ",descricao: 'Dinner event party',sigla: "  ",local: "",apresentador:""}
+{ inicio: "08:00", fim: "09:00", descricao: "Credenciamento e crachás", sigla: "- ",local: "",apresentador: ""},
+{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "",apresentador:""},
+{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "",apresentador:""},
+{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "",apresentador:"Alexander Busch"},
+{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
+{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
+], 
+"25": [ 
+
+{ inicio: "08:00", fim: "09:00", descricao: "Credenciamento e crachás", sigla: "- ",local: "",apresentador: ""},
+{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "",apresentador:""},
+{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "",apresentador:""},
+{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "",apresentador:"Alexander Busch"},
+{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
+{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
+], 
+
+"26": [ 
+
+{ inicio: "08:00", fim: "09:00", descricao: "Credenciamento e crachás", sigla: "- ",local: "",apresentador: ""},
+{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "",apresentador:""},
+{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "",apresentador:""},
+{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "",apresentador:"Alexander Busch"},
+{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
+{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
+], 
+"27": [ 
+
+{ inicio: "08:00", fim: "09:00", descricao: "Credenciamento e crachás", sigla: "- ",local: "",apresentador: ""},
+{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "",apresentador:""},
+{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "",apresentador:""},
+{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "",apresentador:"Alexander Busch"},
+{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
+{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
 ] 
 
 }
