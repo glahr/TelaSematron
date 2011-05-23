@@ -129,45 +129,15 @@ this.local["27"] = "Sexta-feira, 27 de Maio, 2011 @ USP";
 
 evento : { 
                                              
-"23": [ { inicio: "08:00", fim: "09:00", descricao: "Credenciamento", sigla: "- ",local: "Anfiteatro Jorge Caron",apresentador: ""},{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:""},{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:""},{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Alexander Busch"},{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Dr. Jô Furlan"},{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Bernardo Veloso e José Luiz Martins"}], 
+"23": [ { inicio: "08:00", fim: "09:00", descricao: '"Credenciamento"', sigla: "- ",local: "Anfiteatro Jorge Caron",apresentador: ""},{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:""},{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:""},{ inicio: "14:00 ",fim: "16:00",descricao: '"Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Alexander Busch"},{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Dr. Jô Furlan"},{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Bernardo Veloso e José Luiz Martins"}], 
 
-"24": [ 
+"24": [ { inicio: "08:00", fim: "10:00", descricao: '"Carreira Profissional e Família - O Céu é o Limite"', sigla: "- ",local: "Anfiteatro Jorge Caron",apresentador: "Eng. Ghassan Maalouf"},{ inicio: "10:00 ",fim: "12:00",descricao: '"Networking e Relacionamento Negocial"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Aldo Novak"},{ inicio: "14:00 ",fim: "16:00",descricao: '"Desenvolvimento de Produtos de Forma Ambientalmente Sustentável"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Dr. Paulo T. M. Lourenção - Embraer"},{ inicio: "16:00 ",fim: "18:00",descricao: '"Jardim de Plantas Robóticas"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Alexandre Simões, Ph.D. e Prof. Dr. Marcelo Franchin - UNESP"},{ inicio: "19:00 ",fim: "20:00",descricao: '"Bio-inspired Swarms of Flying Robots"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Sabine Hauert, Ph.D. - EPFL (Suíça)"}], 
 
-{ inicio: "08:00", fim: "09:00", descricao: "Credenciamento e crachás", sigla: "- ",local: "",apresentador: ""},
-{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "",apresentador:""},
-{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "",apresentador:""},
-{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "",apresentador:"Alexander Busch"},
-{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
-{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
-], 
-"25": [ 
+"25": [ { inicio: "08:00", fim: "18:00", descricao: '"SMART CHALLENGE"', sigla: "- ",local: "Salão Primavera",apresentador: ""}], 
 
-{ inicio: "08:00", fim: "09:00", descricao: "Credenciamento e crachás", sigla: "- ",local: "",apresentador: ""},
-{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "",apresentador:""},
-{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "",apresentador:""},
-{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "",apresentador:"Alexander Busch"},
-{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
-{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
-], 
+"26": [ { inicio: "08:00", fim: "10:00", descricao: "Instrumentação Virtual com LabVIEW", sigla: "- ",local: "Anfiteatro Jorge Caron",apresentador: "Eng. André Bassoli - National Instruments"},{ inicio: "10:00 ",fim: "12:00",descricao: '"RoadMap das Tecnologias do Futuro"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Eng. Paulo Evando - FPT"},{ inicio: "13:00 ",fim: "14:00",descricao: 'Oportunidades de IC e TCC na USP',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Professores dos departamentos"},{ inicio: "14:00 ",fim: "16:00",descricao: '"Gerenciamento do Supply Chain"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Eng. Renato Saleme - Vale Fertilizantes"},{ inicio: "16:00 ",fim: "18:00",descricao: '"O Desenvolvimento de um Novo Carro - O Case do Novo Uno"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Acir Fortunato - Fiat"}], 
 
-"26": [ 
-
-{ inicio: "08:00", fim: "09:00", descricao: "Credenciamento e crachás", sigla: "- ",local: "",apresentador: ""},
-{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "",apresentador:""},
-{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "",apresentador:""},
-{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "",apresentador:"Alexander Busch"},
-{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
-{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
-], 
-"27": [ 
-
-{ inicio: "08:00", fim: "09:00", descricao: "Credenciamento e crachás", sigla: "- ",local: "",apresentador: ""},
-{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "",apresentador:""},
-{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "",apresentador:""},
-{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "",apresentador:"Alexander Busch"},
-{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
-{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
-] 
+"27": [ { inicio: "08:00", fim: "12:00", descricao: 'Minicursos', sigla: "- ",local: "",apresentador: ""},{ inicio: "13:00 ",fim: "14:00",descricao: 'Divulgação do Programa de Trainees',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Fiat"},{ inicio: "14:00 ",fim: "16:00",descricao: '"Oportunidades e Desafios - Mercado de Trabalho"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Mariana Portes - Cia. de Talentos"},{ inicio: "16:00 ",fim: "18:00",descricao: '"Reabilitação Robótica: Sucessos e Fracassos"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Hermano Krebs, Ph.D. - MIT"},{ inicio: "19:00 ",fim: "- ",descricao: 'Churrasco de Encerramento',sigla: "  ",local: "Salão de Eventos",apresentador:""}]
 
 }
 

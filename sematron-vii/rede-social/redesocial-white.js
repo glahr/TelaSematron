@@ -6,8 +6,9 @@ var twitter =  {
         target : __targetName,
         targetId : __targetId,
 
-	feedURL : "http://search.twitter.com/search.rss?q=%23janelasvirtuais",
-	feedURLdois : "http://www.janelasvirtuais.xpg.com.br/whitelist.xml",
+	//feedURL : "http://twitter.com/statuses/user_timeline/129014758.rss",
+	feedURL : "http://search.twitter.com/search.rss?q=sematron",
+	feedURLdois : "org/sematron/rede-social/whitelist.xml",
 	feed    : null,
 	feeddois    : null,
 	colors : [],
@@ -16,6 +17,11 @@ var twitter =  {
 	approved: [],
 	
 	style : <><![CDATA[
+
+		.twitterPanel {
+			margin-left:25px;
+			margin-top:20px;
+		}
 
 		.tweetauthor { 
 			color:gray; 
@@ -76,18 +82,16 @@ var twitter =  {
 		
 		this.feeddois = this._service_jquery;
 		this.feed = this._service_jquery;
-
-		
 	} ,
 
 	loadApproved : function () {
 		var self =this;
 
 		this.feeddois.ajax( { type:"GET", url: self.feedURLdois, dataType: "xml", success: function (xml) { 
-										self.approvedUpdated(xml);
-									 } 
-									});
-		//timer.setTimeout( function(){self.loadApproved()},60*1000);
+	     	self.approvedUpdated(xml);
+		 } 
+		});
+		timer.setTimeout( function(){self.loadApproved()},6*1000);
 	},
 
 	approvedUpdated : function(xml) {
@@ -95,10 +99,6 @@ var twitter =  {
 		var self = this;
 		this.feeddois(xml).find('item').each(function(){
 			var user  = self.feeddois(this).find('user').text();
-
-			//var bgTitle = title.split("imagens_icmc: ")[1];
-
-			
 			self.approved[self.approved.length] = user;
 		});
 
@@ -107,8 +107,6 @@ var twitter =  {
 	popTweet : function() {
 		if (this.tweetQueue.length == 0) { 
 			var self = this;
-			timer.setTimeout( function(){self.loadApproved()},60*1000);
-			timer.setTimeout( function(){self.updateFeed()},60*1000);
 			return false;
 		} 
 		var obj = this.tweetQueue.pop();
@@ -140,6 +138,8 @@ var twitter =  {
 	updateFeed : function() {
 		var self = this; 
 		this.feed.ajax( { type:"GET", url: this.feedURL, dataType: "xml", success: function (xml) { self.__feedUpdated(xml) } });
+
+		timer.setTimeout( function(){self.updateFeed()},10000);
 	},
 
 	__feedUpdated : function(xml) {
