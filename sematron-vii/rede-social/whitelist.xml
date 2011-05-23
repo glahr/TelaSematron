@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list> 
+	<item> <user>sematron</user><class>trusted</class> </item> 
+	<item> <user>taboca</user><class>trusted</class> </item> 
+	<item> <user>*</user> </item> 
+</list>
