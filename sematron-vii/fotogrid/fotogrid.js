@@ -23,7 +23,7 @@ var fade_Widget =  {
                 this.feed = this._service_jquery;
 		this.picQueue = new Array();
 		this.element = this._coreDoc.createElement('div');
-		this.element.style.marginLeft="10px";
+		this.element.style.marginLeft="40px";
 		this._coreDoc.getElementById(this._getId()).appendChild(this.element);
 		this.refElement = this._coreDoc.createElement("div");
 		this.element.appendChild(this.refElement);

@@ -28,7 +28,7 @@ var grade =  {
 		for (key in currentDay) { 
 			var eventItem = currentDay[key]; 
 			var hours = parseInt(eventItem.fim.split(":")[0])*60 +  parseInt(eventItem.fim.split(":")[1]);
-			var innerTd = "<tr id='rule_"+hours+"' ><td align='right'>"+eventItem.inicio+" - "+ eventItem.fim+" </td><td>"+ eventItem.descricao +"<span class='gradeLocal'> @ "+eventItem.local+"</span></tr>";
+			var innerTd = "<tr id='rule_"+hours+"' ><td align='right'>"+eventItem.inicio+" - "+ eventItem.fim+" </td><td>"+ eventItem.descricao + "<div><span class='gradeApresentador'> "+eventItem.apresentador+"</span> <span class='gradeLocal'> @ "+eventItem.local+"</span></div></tr>";
 			innerAll += innerTd;
 		}
 		this.element.innerHTML+="<table class='gradeTable'   border='0' cellpadding='10'>"+head+innerAll+"</table>";
@@ -96,7 +96,7 @@ var grade =  {
 			text-shadow:none;
 		} 
 
-		.gradeLocal { 
+		.gradeLocal, .gradeApresentador { 
 			text-shadow: none;
 			font-size:80%;
 		} 
@@ -128,16 +128,8 @@ this.local["27"] = "Sexta-feira, 27 de Maio, 2011 @ USP";
 	} ,
 
 evento : { 
-
-"23": [ 
-
-{ inicio: "08:00", fim: "09:00", descricao: "Credenciamento e crachás", sigla: "- ",local: "",apresentador: ""},
-{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "",apresentador:""},
-{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "",apresentador:""},
-{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "",apresentador:"Alexander Busch"},
-{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "",apresentador:"Dr. Jô Furlan"},
-{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "",apresentador:"Bernardo Veloso e José Luiz Martins"}
-], 
+                                             
+"23": [ { inicio: "08:00", fim: "09:00", descricao: "Credenciamento", sigla: "- ",local: "Anfiteatro Jorge Caron",apresentador: ""},{ inicio: "09:00 ",fim: "10:00",descricao: 'Cerimônia de abertura oficial do evento',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:""},{ inicio: "10:00 ",fim: "12:00",descricao: 'MESA REDONDA: "Desenvolvimento de Produtos nas Empresas"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:""},{ inicio: "14:00 ",fim: "16:00",descricao: 'Brasil, País do Presente - O Poder Econômico do "Gigante Verde"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Alexander Busch"},{ inicio: "16:00 ",fim: "18:00",descricao: 'Liderança Comportamental - A Liderança de Resultados',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Dr. Jô Furlan"},{ inicio: "19:00 ",fim: "20:00",descricao: 'Evento Stand-up Comedy: "Sem Pé Nem Cabeça"',sigla: "  ",local: "Anfiteatro Jorge Caron",apresentador:"Bernardo Veloso e José Luiz Martins"}], 
 
 "24": [ 
 
