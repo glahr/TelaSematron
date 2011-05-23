@@ -45,9 +45,9 @@ var redesocial =  {
 
 	crop    : "50",
 	title   : "Twitter 10",
-	feedURL: "http://search.twitter.com/search.rss?q=%23sematronvi",
-	feedURL2: "http://search.twitter.com/search.rss?q=%23sematronvi",
-	feedURL3: "http://search.twitter.com/search.rss?q=%23sematronvi",
+	feedURL: "http://search.twitter.com/search.rss?q=%23sematronvii",
+	feedURL2: "http://search.twitter.com/search.rss?q=%23sematronvii",
+	feedURL3: "http://search.twitter.com/search.rss?q=%23sematronvii",
 	feed    : null, 
 	feed2	: null,
 	feed3	: null,
