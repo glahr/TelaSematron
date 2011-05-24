@@ -8,6 +8,7 @@ var twitter =  {
 
 	//feedURL : "http://twitter.com/statuses/user_timeline/129014758.rss",
 	feedURL : "http://search.twitter.com/search.rss?q=%23sematron",
+	//feedURL : "org/sematron/rede-social/test.xml",
 	feedURLdois : "org/sematron/rede-social/whitelist.xml",
 	feed    : null,
 	feeddois    : null,
@@ -91,15 +92,20 @@ var twitter =  {
 		range-=.7;
 		k.style.MozTransform = 'rotate('+range+'deg)';
 
-		if(this.count >= 3)
-			this.count = 0;
+		//if(this.count >= 3)
+		//	this.count = 0;
 
 		//k.style.backgroundColor = this.colors[this.count];
 
-		this.count++;
-		
 		k.innerHTML = t;		
 		this.element.insertBefore(k, this.element.firstChild);
+		this.count++;
+
+		if(this.count>15) { 
+			var extra = this._coreDoc.getElementById("firsttwitter");
+			this.element.removeChild(extra.previousSibling);
+                } 
+
 		return true;
 	},
 
